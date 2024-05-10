@@ -1,89 +1,33 @@
-.navbar{
-    background-color: #1f1f1f;
-    width: 100%;
-    height: 5rem;
+.hd-navbar{
     display: flex;
     justify-content: space-around;
+    font-family: "kanit", sans-serif;
+    height: 3.5rem;
     align-items: center;
-    color: #fff;
-    font-family: Lato, sans-serif;
+    color: #ffffff;
+
 }
 
-.img-container{
-    width: 6.0rem;
-    height: 2.5rem;
-    margin: 8px;
-    background-color: gold;
+title-navbar{
+
+
 }
 
-.List-container{
-    width: 35%;
-    height: auto;
+.nv-navbar{
+    font-family: "kanit", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+
+    width: 50%;
+    height: 3rem;
     display: flex;
-    justify-content: space-around;
-    margin: 8px;
-}
-
-.elementsList{
-    margin-right: 8em ;
-    padding: 0.5rem 2rem;
-    cursor: pointer;
-    text-decoration: none;
-    color: #ffd700;
-    border-bottom: .1em solid #ffffff;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .link{
-    margin-right: 8em ;
-    padding: 0.5rem 2rem;
-    cursor: pointer;
     text-decoration: none;
-    color: #fff;
-}
-
-.link:hover {
-    background-color: #ffd700;
-    color: #1f1f1f;
-    border-radius: 5px;
-}
-
-
-@media (max-width: 1024px) {
-    .navbar {
-        flex-direction: column;
-        height: auto;
-        padding: 1rem 0;
-    }
-    .img-container {
-        margin: 4px 0;
-        width: 5rem;  /* Ajustar el tamaño si es necesario */
-        height: 2rem; /* Ajustar el tamaño si es necesario */
-    }
-    .list-container {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .elementsList {
-        margin-right: 0;
-        padding: 0.5rem 1rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        padding: 0.5rem 0;
-    }
-    .img-container {
-        width: 4.5rem; /* Ajustar el tamaño si es necesario */
-        height: 1.8rem; /* Ajustar el tamaño si es necesario */
-    }
-    .list-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .elementsList {
-        padding: 0.5rem;
-        font-size: 0.8rem; /* Reducir el tamaño de la fuente */
-    }
+    color: #ffffff;
 }

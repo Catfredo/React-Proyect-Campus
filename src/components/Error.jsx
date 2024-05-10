@@ -1,7 +1,7 @@
 const Error = () => {
   return(
     <>
-      <h1>404 Error page not found</h1>
+      <img src="https://thumbs.dreamstime.com/b/error-astronaut-planet-space-background-error-astronaut-planet-space-background-149803136.jpg" alt=""/>
     </>
   )
 }

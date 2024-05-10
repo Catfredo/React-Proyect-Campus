@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from 'react-router-dom';
 import "/src/stylesSheets/navbar.css";
 
@@ -6,31 +5,29 @@ import "/src/stylesSheets/navbar.css";
 
 const Navbar = () => {
   return (
-    <header>
-      <div className="navbar">
-        <div className="img-container"></div>
-        <h1>
-          This.NameOfApp
+    <header className="hd-navbar">
+
+        <h1 className="title-navbar">
+          Space Core
         </h1>
 
-        <nav>
+        <nav className="nv-navbar">
           <NavLink
             to="/"
-            className={({ isActive }) => (isActive ? 'elementsList' : 'link')}
+            className="link"
           >
             Home</NavLink>
           <NavLink
-            to="/component2"
-            className={({ isActive }) => (isActive ? 'elementsList' : 'link')}
+            to="/"
+            className="link"
           >
-            Link to</NavLink>
+            Roover</NavLink>
           <NavLink
-            to="/component3"
-            className={({ isActive }) => (isActive ? 'elementsList' : 'link')}
+            to="/exoplanets"
+            className="link"
           >
-            Link to</NavLink>
+          Exoplanets</NavLink>
         </nav>
-      </div>
     </header>
   );
 }

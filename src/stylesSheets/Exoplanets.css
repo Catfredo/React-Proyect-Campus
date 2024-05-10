@@ -1,0 +1,38 @@
+Canvas{
+    height: 500px !important;
+}
+
+.exoplanet-card-information{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.select-exoplanet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.select-exoplanet select{
+    width: 40%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #0080ff;
+    color: #fff;
+    border: none;
+    margin: 0;
+    padding: 0 0 0 0.5em;
+    border-radius: 0.25em;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+.select-exoplanet option{
+    background-color: #fff;
+    color: #000;
+}

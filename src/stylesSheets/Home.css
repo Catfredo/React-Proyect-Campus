@@ -1,0 +1,102 @@
+.section-imgCard{
+    width: 80%;
+    height: 20rem;
+}
+
+.line-section{
+    text-align: center;
+}
+
+.line-section h2{
+    display: inline-block;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.title-home{
+    text-align: center;
+    margin: 0.5rem auto;
+    font-family: "ubuntu", sans-serif;
+    color: #ffffff;
+}
+
+
+.img-home {
+    width: 100%;
+    mask-image: linear-gradient(
+            transparent,
+            black 50%,
+            transparent
+    );
+}
+
+.welcome-sesion{
+    height: 27rem;
+}
+
+.title-spacecore{
+    font-family: "ubuntu", sans-serif;
+    font-size: 5rem;
+}
+
+.title-spacecore span{
+    color: #0080ff;
+}
+
+.welcome-section__wrapper{
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    z-index: 2;
+    text-align: center;
+}
+
+.welcome-section__wrapper p{
+    font-size: 2rem;
+}
+
+.img-carusel{
+    max-height: 500px;
+}
+
+
+.section-card{
+    width: 90%;
+    margin: 2rem auto;
+    height: 550px;
+}
+
+.image-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 100%;
+    place-items: center;
+    color: #ffffff;
+    font-family: "ubuntu", sans-serif;
+}
+
+.img-card-container{
+    display: grid;
+    place-items: center;
+}
+.img-card-container img{
+    max-width: 500px;
+    height: 300px;
+}
+
+.img-card-container h3{
+    margin-top: 2rem;
+    text-decoration: underline #0080ff;
+}
+
+
+.parragraph-card{
+    width: 90%;
+    border: 1px solid #0080ff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+

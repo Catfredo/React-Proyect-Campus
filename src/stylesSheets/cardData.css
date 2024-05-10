@@ -1,0 +1,14 @@
+
+.imgContainer{
+    width: 90%;
+    height: 15rem;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.imgContainer img{
+    object-fit: contain;
+    width: 100%;
+}
+
+

@@ -1,0 +1,85 @@
+.search-section {
+    min-height: 27rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center input {
+    appearance: none;
+    width: 10%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    background-color: #1b45b4;
+    color: #ffffff;
+}
+
+.text-h2 {
+    font: bold 2rem "ubuntu", sans-serif;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.input-btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.grid-center {
+    padding: 1.4rem;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.btn-search {
+    padding: 0.8rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+    width: 10%;
+    box-shadow: 2px 3px 6px rgba(255, 255, 255, 0.3);
+}
+
+.search-img-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: "kanit", sans-serif;
+}
+
+.img-h2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.img-h2-container img {
+    margin: 0.5rem;
+    width: auto;
+    height: 300px;
+}
+
+.img-h2-container h2 {
+    color: #0080ff;
+}
+
+.img-text-search {
+    width: 40rem;
+    place-content: center;
+    text-align: center;
+}
+
+.img-text-search p{
+    padding: 2rem;
+    border: 1px solid #0080ff;
+    border-radius: 15px;
+}
+
